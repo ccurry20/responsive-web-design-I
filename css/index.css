@@ -1,3 +1,560 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	
+}
+*/
+
+/* Your code starts here! */
+.container {
+	width: 900px; 
+    margin: auto;
+	
+}
+  
+
+header nav {
+ display: flex;
+  margin-top: 35px;
+  
+}
+
+.logo {
+	margin-left:650px;
+	display: flex;
+	margin-top: -50px;
+
+	
+}
+
+header nav a {
+	margin: 20px; 
+	
+}
+
+
+
+.sub img{
+display: flex;
+margin-left: 450px;
+    margin-bottom: 50px;
+	margin-top: -290px;
+}
+
+
+
+.sub h1 {
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	display:flex;
+	margin-top: 30px;
+	font-size: 60px;
+	text-align: center;
+	margin-left: 100px;
+	margin-top:100px;
+}
+
+.sub h3 {
+	border: 1px solid black;
+	display:flex;
+	font-family:Arial;
+	margin-left: 180px;
+	padding: 5px 5px 5px;
+	width: 100px;
+}
+
+.line {
+	border-bottom: 1px solid;
+	width: 875px;
+}
+
+.one h6 {
+	
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	margin-top: 20px; 
+}
+
+.one p {
+	display: flex;
+	width: 50%;
+     height: 50px;
+
+}
+
+.one h3  {
+	 
+
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-left: 50%;
+	margin-top: -95px;
+	margin-bottom: 15px;
+}
+
+.two p {
+	display: flex;
+	margin-left: 50%;
+	
+}
+
+.three h4 {
+ 
+	font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	margin-top: 20px; 
+	margin-left: -10px;
+}
+
+.three p {
+	display: flex;
+	width: 30%;
+	 height: 50px;
+	 margin-right: 50%;
+	 margin-left: -10px; 
+}
+
+.three h5 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-left: 40%;
+	margin-top: -76px;
+	margin-bottom: 15px;
+}
+
+.four p {
+	display: flex;
+	margin-left: 40%;
+	
+
+}
+
+.five h3 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-left: 75%;
+	margin-top: -76px;
+	margin-bottom: 15px;
+}
+
+.five p {
+	display: flex;
+	margin-left: 75%;
+}
+
+
+.contact-section {
+	border-top: 1px solid black;
+	padding: 20px 0;
+	margin-top:80px; 
+}
+
+.contact-section h2 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+}
+
+footer .footer-content {
+   padding: 20px 0;
+   text-align: center;
+   font-family: 'Schoolbell'; 
+}
+
+.menu-container {
+	display: flex; 
+	flex-direction: row;
+	width: 900px;
+	margin: auto; 
+	flex-wrap: wrap; 
+}
+
+.menu-container .item {
+	width: 370px;
+	height: 200px;
+	background: #efeeee;
+	border: 1px solid black;
+	margin: 20px;
+	flex-wrap: wrap; 
+	
+  }
+
+
+  .menu-container h2 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	 margin-top: 20px;
+	 margin-left: 20px; 
+  }
+
+   .menu-container p {
+	margin-left: 20px;
+   }
+
+.menu-container .learn {
+	margin-left: 20px;
+}
+.top h1 {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+.top p{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px; 
+	
+}
+
+
+
+.menu-bottom p {
+  width: 400px; 
+}
+
+.menu-bottom {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+   }
+
+.menu-bottom h2 {
+	margin-right: 100px; 
+	width: 800px; 
+}
+
+.services-info-img {
+margin-left: 450px; 
+margin-top: -270px; 
+
+}
+
+ul {
+	list-style-type: square; 
+	margin-left: 30px; 
+	margin-top: 20px; 
+}
+
+footer .footer-contenttwo {
+    padding: 30px 0; 
+	text-align: center;
+	font-family: 'Schoolbell'; 
+	margin-left: 300px; 
+	margin-top: 30px; 
+ }
+
+/*tablet*/
+@media(max-width: 800px) {
+
+	.logo {
+		display: none;  
+	}
+
+	.container {
+        
+        max-width: 800px; 
+        margin: 0 auto; 
+        
+	}
+
+	
+	.container header nav a {
+    	color: black; 
+		justify-content: space-evenly;
+		text-decoration: none; 
+		margin-right: 64px; 
+		margin-top:-10px; 
+	 
+	}
+
+	.sub .codepic {
+        display: none; 
+    }
+
+	.line {
+		width: 750px; 
+		margin-top: 20px; 
+		margin-left: 10px;
+		max-width:800px;  
+	}
+ 
+	.middle-img {
+		width: 750px; 
+		margin-left: 20px; 
+		max-width:800px; 
+	}
+
+	.sub h1 {
+		margin-left: 250px; 
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+
+	.sub h3 {
+		display: flex; 
+		flex-direction: column;
+		margin-left: 322px;  
+	}
+
+	.one p {
+		width: 350px; 
+		
+	   }
+
+	.one h6 {
+		margin-left: 13px;
+	}   
+
+	.three h4 {
+		margin-left: 21px; 
+	}
+
+	.three p {
+	 width: 200px;
+	 justify-content: space-evenly; 
+	}
+
+.contact-section {
+   margin-left: 20px;
+   border-top: 0px solid black;
+   margin-top: 10px; 
+ 
+}
+
+.line2 {
+	border-bottom: 1px solid;
+	width: 750px; 
+	margin-top: 70px; 
+		margin-left: 10px;
+		max-width:800px
+   }
+
+ .servicesp p {
+  margin-left: 20px; 
+ }
+ 
+ .productp p {
+	 margin-left: 300px; 
+	 margin-top: -3px; 
+
+ }
+
+ .five p {
+  margin-left: 572px; 
+ }
+
+.five h3 {
+	margin-left: 72%;
+	max-width:800px; 
+	margin-top: -79px; 
+}
+.three h5 {
+margin-left: 297px; 
+margin-top: -79px; 
+}
+
+.featuresp p {
+ margin-left: 12px; 
+}
+
+.aboutp p {
+  margin-left: 364px; 
+  margin-top: -4px; 
+}
+
+.one h3 {
+	margin-left: 361px;
+}
+}
+
+
+
+ /*mobile phone*/
+ @media(max-width: 500px) {
+
+	.logo {
+		display: flex; 
+		flex-direction: column; 
+		margin-top: -483px;
+		margin-left: 100px;  
+	}
+
+    .container {
+        flex-direction:column;
+        max-width: 400px; 
+        margin: 0 auto; 
+        
+	}
+
+	.sub h1 {
+		margin-top: 400px; 
+		margin-left: 70px;
+		/*align-content: center; */
+	}
+	
+
+    .container header nav {
+        display: flex; 
+        flex-direction: column; 
+		color: black; 
+		align-items: center;
+		margin-top: 60px; 
+		
+    }
+
+	.container header nav a {
+        display: flex; 
+        flex-direction: column; 
+		color: black; 
+		justify-content: space-evenly;
+		text-decoration: none; 
+		margin-bottom: 50px; 
+		border-bottom: 1px solid black;
+		width: 100%;
+		text-align: center;
+		padding-bottom: 14px;
+	
+	}
+
+    .sub .codepic {
+        display: none; 
+    }
+
+   .sub h3 {
+       display: flex; 
+	   flex-direction: column;
+	   margin-left: 150px;  
+   }
+
+   .line {
+	   width: 400px; 
+	   margin-top: 20px; 
+   }
+
+   .line2 {
+	border-bottom: 1px solid;
+	width: 400px;
+	margin-top: 50px; 
+   }
+
+   .one p {
+	width: 400px; 
+   }
+
+  .one h3 {
+	  display: flex; 
+	  flex-direction: column; 
+	  margin-top: 50px; 
+	  margin-left: 2px;  
+	
+  }
+
+  .two p {
+	display: flex; 
+	flex-direction: column; 
+	 width: 400px; 
+	  margin-left: 2px;
+}
+
+
+   .middle-img {
+	   width: 410px; 
+	   margin-left: -3px; 
+	   margin-top: -22px; 
+   }
+
+   .three h5 {
+	margin-top: 50px; 
+    margin-left: -3px; 
+
+   }
+
+   .five p {
+	   margin-bottom: -50px; 
+	   margin-top: 35px; 
+   }
+
+   .five h3 {
+	 margin-top: 50px;
+	 margin-left: -4px;  
+   }
+
+   .contact-section {
+	margin-top: 5px; 
+	margin-left: 5px; 
+   }
+
+  .three h4 {
+	  margin-left: -2px; 
+  }
+
+  .one h6 {
+    margin-left: -1px; 
+  }
+
+
+}
